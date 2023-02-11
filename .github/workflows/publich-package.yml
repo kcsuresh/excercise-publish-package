@@ -1,6 +1,7 @@
 name: publish node.js package to Git hub package
 
 on:
+  push:
   release:
     types: [created]
 
